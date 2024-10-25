@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JOKENPÔ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JOKENPÔ</h1>
+    </header>
+    <main>
+      <div id="gameArea">
+        <div id="resultado">Vitoria</div>
+        <div class="handArea" id="playerArea">
+          <div class="name" id="playerName">Você</div>
+          <div class="handContainer" id="playerHandContainer">
+            <img id="imgHandPlayer" src="pedra.png" alt="" />
+          </div>
+        </div>
+        <div class="handArea" id="pcArea">
+          <div class="name" id="pcName">PC</div>
+          <div class="handContainer" id="pcHandContainer">
+            <img id="imgHandPc" src="pedra.png" alt="" />
+          </div>
+        </div>
+        <div id="menu">
+            <button class="btnHand" id="btnPedra">
+              <img src="pedra.png" alt="" />
+            </button>
+            <button class="btnHand" id="btnPapel">
+              <img src="papel.png" alt="" />
+            </button>
+            <button class="btnHand" id="btnTesoura">
+              <img src="tesoura.png" alt="" />
+            </button>
+          </div>
+      </div>
+    </main>
+    <audio id="audioWin" src="win.mp3"></audio>
+    <audio id="audioLose" src="lose.mp3"></audio>
+    <audio id="audioDraw" src="draw.mp3"></audio>
+    <audio id="audioWait" src="wait.mp3"></audio>
+
+    <script src="main.js"></script>
+    <!-- 
+    Sound Effect by <a href="https://pixabay.com/pt/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250960">UNIVERSFIELD</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250960">Pixabay</a> 
+    Sound Effect by <a href="https://pixabay.com/pt/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=144751">UNIVERSFIELD</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=144751">Pixabay</a>
+    Sound Effect by <a href="https://pixabay.com/pt/users/universfield-28281460/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=133354">UNIVERSFIELD</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=133354">Pixabay</a>
+    Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=35902">Pixabay</a>
+      -->
+  </body>
+</html>
